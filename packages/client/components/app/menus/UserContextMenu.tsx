@@ -205,11 +205,11 @@ export function UserContextMenu(props: {
   }
 
   /**
-   * Open user in Stoat Admin Panel
+   * Open user in Klyde Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/user/${props.user.id}`,
+      `https://admin.klydeinternal.com/panel/inspect/user/${props.user.id}`,
       "_blank",
     );
   }

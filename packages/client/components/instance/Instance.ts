@@ -2,7 +2,7 @@ import { Navigator } from "@solidjs/router";
 import { Accessor, createMemo, createSignal } from "solid-js";
 
 import { CONFIGURATION } from "@revolt/common";
-import { AppConfig, STOAT_HOST } from "@revolt/common/lib/env";
+import { AppConfig, KLYDE_HOST } from "@revolt/common/lib/env";
 import { Client, UserLimits } from "stoat.js";
 
 import { DefaultHost } from ".";
@@ -13,7 +13,7 @@ export default class Instance {
   /** Undefined on default host */
   readonly host?: string;
   readonly origin: string;
-  readonly isStoat: boolean;
+  readonly isKlyde: boolean;
   readonly #nav;
 
   readonly apiUrl: string;
@@ -56,7 +56,7 @@ export default class Instance {
 
     const hostUrl = new URL(`https://${host}`);
     this.origin = hostUrl.origin;
-    this.isStoat = host === STOAT_HOST;
+    this.isKlyde = host === KLYDE_HOST;
     this.#nav = nav;
   }
 
@@ -96,7 +96,7 @@ export default class Instance {
     this.#nav(this.href(Instance.relPath(), true, host));
   }
 
-  /** Create a new Stoat.js client, disposing the old one */
+  /** Create a new Klyde.js client, disposing the old one */
   newClient() {
     //Reuse initial client for first login only
     if (this.#firstInit) {

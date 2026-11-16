@@ -116,11 +116,11 @@ export function ServerContextMenu(props: { server: Server }) {
   }
 
   /**
-   * Open server in Stoat Admin Panel
+   * Open server in Klyde Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/server/${props.server.id}`,
+      `https://admin.klydeinternal.com/panel/inspect/server/${props.server.id}`,
       "_blank",
     );
   }

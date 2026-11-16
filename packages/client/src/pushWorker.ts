@@ -8,7 +8,7 @@ interface ChannelPartial {
   name?: string;
 }
 
-interface StoatPushNotification {
+interface KlydePushNotification {
   title?: string;
   author?: string;
   body: string;
@@ -30,13 +30,13 @@ self.addEventListener("notificationclick", (event) => {
 
 self.addEventListener("push", (event) => {
   if (!event.data) return;
-  const notif: StoatPushNotification = JSON.parse(event.data.text());
+  const notif: KlydePushNotification = JSON.parse(event.data.text());
 
   notif.title ||= notif.channel
     ? notif.channel.channel_type === "DirectMessage"
-      ? notif.author || "Stoat"
+      ? notif.author || "Klyde"
       : `${notif.author} in ${notif.channel.name}`
-    : "Stoat";
+    : "Klyde";
 
   //Redirect instance URL
   const url = notif.url && new URL(notif.url);

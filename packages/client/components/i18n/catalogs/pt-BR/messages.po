@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2025-09-29 18:29-0500\n"
 "PO-Revision-Date: 2026-10-29 11:18+0000\n"
 "Last-Translator: Potins <quatronux@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://translate.stoat.chat/projects/revolt/revolt-for-web/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.klyde.chat/projects/revolt/revolt-for-web/pt_BR/>\n"
 "Language: pt-BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -844,8 +844,8 @@ msgstr "Verifique seu e-mail"
 #~ msgstr "Confira sua caixa de entrada!"
 
 #: components/auth/src/flows/FlowConfirmReset.tsx
-msgid "Choose a new password for your Stoat account."
-msgstr "Escolha uma nova senha para sua conta do Stoat."
+msgid "Choose a new password for your Klyde account."
+msgstr "Escolha uma nova senha para sua conta do Klyde."
 
 #: components/auth/src/flows/FlowLogin.tsx
 msgid "Choose a username"
@@ -1085,8 +1085,8 @@ msgid "Could not find what you requested."
 msgstr "Não foi possível encontrar o que você solicitou."
 
 #: components/instance/index.tsx
-msgid "Couldn't fetch Stoat configuration from {hStr}."
-msgstr "Não foi possível obter a configuração do Stoat de {hStr}."
+msgid "Couldn't fetch Klyde configuration from {hStr}."
+msgstr "Não foi possível obter a configuração do Klyde de {hStr}."
 
 #: components/ui/components/design/ImageCropper.tsx
 msgid "Couldn't load this image."
@@ -1435,8 +1435,8 @@ msgid "Discover"
 msgstr "Descobrir"
 
 #: src/interface/Home.tsx
-msgid "Discover Stoat"
-msgstr "Descubra o Stoat"
+msgid "Discover Klyde"
+msgstr "Descubra o Klyde"
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
 msgid "Display & Text"
@@ -1479,12 +1479,12 @@ msgid "Donate"
 msgstr "Doar"
 
 #: src/interface/Home.tsx
-msgid "Donate to Stoat"
-msgstr "Doar para o Stoat"
+msgid "Donate to Klyde"
+msgstr "Doar para o Klyde"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Donated to Stoat"
-msgstr "Doou ao Stoat"
+msgid "Donated to Klyde"
+msgstr "Doou ao Klyde"
 
 #: components/modal/modals/MFARecovery.tsx
 msgid "Done"
@@ -1687,8 +1687,8 @@ msgid "Extreme violence, gore or animal cruelty"
 msgstr "Violência extrema, gore ou crueldade contra animais"
 
 #: components/client/NotificationsController.ts
-msgid "Failed to enable notifications. Stoat does not have notification permission."
-msgstr "Falha ao ativar as notificações. O Stoat não tem permissão de notificação."
+msgid "Failed to enable notifications. Klyde does not have notification permission."
+msgstr "Falha ao ativar as notificações. O Klyde não tem permissão de notificação."
 
 #: components/client/NotificationsController.ts
 msgid "Failed to enable push notifications. Please try again later."
@@ -1806,24 +1806,24 @@ msgid "Get it on Google Play"
 msgstr "Disponível no Google Play"
 
 #: components/auth/src/AppUpsell.tsx
-msgid "Get Stoat for Android and keep up with your friends wherever you are."
-msgstr "Baixe o Stoat para Android e fique com seus amigos por onde você for."
+msgid "Get Klyde for Android and keep up with your friends wherever you are."
+msgstr "Baixe o Klyde para Android e fique com seus amigos por onde você for."
 
 #: components/auth/src/AppUpsell.tsx
 msgid "Get the desktop app for Windows, macOS and Linux and keep your conversations one click away."
 msgstr "Baixe o aplicativo desktop para Windows, macOS ou Linux e continue com suas conversas em um clique."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
-msgid "Gifbox is our own GIF service, so you can keep sharing GIFs right here on Stoat."
-msgstr "Gifbox é o nosso próprio serviço de GIFs, para que você possa continuar compartilhando GIFs no Stoat."
+msgid "Gifbox is our own GIF service, so you can keep sharing GIFs right here on Klyde."
+msgstr "Gifbox é o nosso próprio serviço de GIFs, para que você possa continuar compartilhando GIFs no Klyde."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
 msgid "GIFs are now powered by Gifbox"
 msgstr "Os GIFs agora são fornecidos pelo Gifbox"
 
 #: src/interface/Home.tsx
-msgid "Give feedback on Stoat"
-msgstr "Dê feedback sobre o Stoat"
+msgid "Give feedback on Klyde"
+msgstr "Dê feedback sobre o Klyde"
 
 #: components/modal/modals/ReportContent.tsx
 msgid "Give us some detail"
@@ -1847,8 +1847,8 @@ msgstr "Vá para configurações da conta para editar seu nome de usuário"
 
 #: components/app/interface/settings/user/Feedback.tsx
 #: src/interface/Home.tsx
-msgid "Go to the Stoat Lounge"
-msgstr "Ir para o Stoat Lounge"
+msgid "Go to the Klyde Lounge"
+msgstr "Ir para o Klyde Lounge"
 
 #~ msgid "Go to the testers server"
 #~ msgstr "Ir para o servidor de testadores"
@@ -1903,8 +1903,8 @@ msgid "Help contribute to an existing or new language"
 msgstr "Ajude a contribuir a um idioma existente ou novo"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Helped translate Stoat"
-msgstr "Ajudou a traduzir o Stoat"
+msgid "Helped translate Klyde"
+msgstr "Ajudou a traduzir o Klyde"
 
 #. placeholder {0}: link()
 #: components/modal/modals/CreateInvite.tsx
@@ -1960,8 +1960,8 @@ msgid "Impersonation"
 msgstr "Falsa identidade"
 
 #: src/AndroidNag.tsx
-msgid "In the meantime, install Stoat from Google Play for a faster, smoother experience designed for Android."
-msgstr "Enquanto isso, instale o Stoat pelo Google Play para uma experiência mais rápida e fluida, projetada para Android."
+msgid "In the meantime, install Klyde from Google Play for a faster, smoother experience designed for Android."
+msgstr "Enquanto isso, instale o Klyde pelo Google Play para uma experiência mais rápida e fluida, projetada para Android."
 
 #: src/interface/Friends.tsx
 msgid "Incoming"
@@ -1972,8 +1972,8 @@ msgid "Input Volume"
 msgstr "Volume de entrada"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Instead of closing, Stoat will hide in your tray."
-msgstr "Em vez de fechar, o Stoat vai se esconder na sua bandeja."
+msgid "Instead of closing, Klyde will hide in your tray."
+msgstr "Em vez de fechar, o Klyde vai se esconder na sua bandeja."
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
 msgid "Interface Font"
@@ -2034,13 +2034,13 @@ msgid "Join a server"
 msgstr "Juntar-se a um servidor"
 
 #: components/auth/src/flows/FlowCreate.tsx
-msgid "Join Stoat"
-msgstr "Entre no Stoat"
+msgid "Join Klyde"
+msgstr "Entre no Klyde"
 
 #: components/app/interface/settings/user/Feedback.tsx
 #: src/interface/Home.tsx
-msgid "Join the Stoat Lounge"
-msgstr "Entre no Espaço Stoat"
+msgid "Join the Klyde Lounge"
+msgstr "Entre no Espaço Klyde"
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardPreview.tsx
 #: src/interface/channels/ChannelHeader.tsx
@@ -2098,16 +2098,16 @@ msgid "Latest"
 msgstr "Recente"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Launch Stoat when you log into your computer."
-msgstr "Iniciar o Stoat ao ligar seu computador."
+msgid "Launch Klyde when you log into your computer."
+msgstr "Iniciar o Klyde ao ligar seu computador."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
 msgid "Learn more"
 msgstr "Saiba mais"
 
 #: components/app/interface/settings/user/bots/MyBots.tsx
-msgid "Learn more about how to create bots on Stoat."
-msgstr "Aprenda mais sobre como criar bots no Stoat."
+msgid "Learn more about how to create bots on Klyde."
+msgstr "Aprenda mais sobre como criar bots no Klyde."
 
 #: components/modal/modals/DeleteChannel.tsx
 #: components/modal/modals/LeaveServer.tsx
@@ -2130,8 +2130,8 @@ msgid "Leave server"
 msgstr "Sair do servidor"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Let Stoat use its own custom titlebar."
-msgstr "Permita que o Stoat use sua própria barra de título."
+msgid "Let Klyde use its own custom titlebar."
+msgstr "Permita que o Klyde use sua própria barra de título."
 
 #: src/interface/Home.tsx
 msgid "Let us know how we can improve our app by giving us feedback."
@@ -2463,12 +2463,12 @@ msgid "New Password"
 msgstr "Nova senha"
 
 #: components/app/interface/channels/text/Message.tsx
-msgid "New to Stoat"
-msgstr "Novo no Stoat"
+msgid "New to Klyde"
+msgstr "Novo no Klyde"
 
 #: components/auth/src/AuthPage.tsx
-msgid "New to Stoat?"
-msgstr "Novo no Stoat?"
+msgid "New to Klyde?"
+msgstr "Novo no Klyde?"
 
 #: components/app/interface/channels/text/Message.tsx
 msgid "New to the server"
@@ -2921,8 +2921,8 @@ msgid "Rename Session"
 msgstr "Renomear sessão"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Rep Stoat using Discord rich presence."
-msgstr "Representar o Stoat usando o Discord Rich Presence."
+msgid "Rep Klyde using Discord rich presence."
+msgstr "Representar o Klyde usando o Discord Rich Presence."
 
 #: components/app/menus/MessageContextMenu.tsx
 msgid "Reply"
@@ -3280,8 +3280,8 @@ msgstr "Mostrar Outros"
 msgid "Show send message button"
 msgstr "Mostrar botão de enviar mensagem"
 
-#~ msgid "Sign into Stoat"
-#~ msgstr "Entrar no Stoat"
+#~ msgid "Sign into Klyde"
+#~ msgstr "Entrar no Klyde"
 
 #~ msgid "Sign Up"
 #~ msgstr "Registrar-se"
@@ -3372,35 +3372,35 @@ msgid "Status"
 msgstr "Status"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Stoat Developer"
-msgstr "Desenvolvedor Stoat"
+msgid "Klyde Developer"
+msgstr "Desenvolvedor Klyde"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Stoat for Desktop"
-msgstr "Stoat para desktop"
+msgid "Klyde for Desktop"
+msgstr "Klyde para desktop"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Stoat Founder"
-msgstr "Fundador do Stoat"
+msgid "Klyde Founder"
+msgstr "Fundador do Klyde"
 
-#~ msgid "Stoat is one of the best ways to stay connected with your friends and community, anywhere, anytime."
-#~ msgstr "Stoat é uma das melhores maneiras de se manter conectado com seus amigos e comunidade, em qualquer lugar, a qualquer hora."
+#~ msgid "Klyde is one of the best ways to stay connected with your friends and community, anywhere, anytime."
+#~ msgstr "Klyde é uma das melhores maneiras de se manter conectado com seus amigos e comunidade, em qualquer lugar, a qualquer hora."
 
 #: components/app/interface/settings/server/roles/ServerRoleEditor.tsx
-msgid "Stoat rocks!"
-msgstr "O Stoat é demais!"
+msgid "Klyde rocks!"
+msgstr "O Klyde é demais!"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Stoat will start in the system tray."
-msgstr "O Stoat iniciará em segundo plano na barra de tarefas."
+msgid "Klyde will start in the system tray."
+msgstr "O Klyde iniciará em segundo plano na barra de tarefas."
 
 #: src/AndroidNag.tsx
-msgid "Stoat works best as an app"
-msgstr "O Stoat funciona melhor como aplicativo"
+msgid "Klyde works best as an app"
+msgstr "O Klyde funciona melhor como aplicativo"
 
 #: components/auth/src/AppUpsell.tsx
-msgid "Stoat, right on <0>your desktop.</0>"
-msgstr "Stoat, diretamente no <0>seu computador.<\\0>"
+msgid "Klyde, right on <0>your desktop.</0>"
+msgstr "Klyde, diretamente no <0>seu computador.<\\0>"
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardActions.tsx
 msgid "Stop camera"
@@ -3435,8 +3435,8 @@ msgid "Subscriptions"
 msgstr "Inscrições"
 
 #: components/app/interface/settings/user/Feedback.tsx
-msgid "Suggest new Stoat features on GitHub discussions."
-msgstr "Sugerir novas features ao Stoat em discussões do GitHub."
+msgid "Suggest new Klyde features on GitHub discussions."
+msgstr "Sugerir novas features ao Klyde em discussões do GitHub."
 
 #: src/interface/Home.tsx
 msgid "Support the project by donating - thank you!"
@@ -3719,8 +3719,8 @@ msgstr "Desbloquear usuário"
 
 #. placeholder {0}: err.type
 #: components/i18n/errors.tsx
-msgid "Uncaught Stoat error: {0}"
-msgstr "Erro de Stoat Não Capturado: {0}"
+msgid "Uncaught Klyde error: {0}"
+msgstr "Erro de Klyde Não Capturado: {0}"
 
 #: components/app/interface/settings/user/notifications/Sounds.tsx
 #: components/ui/components/features/voice/callCard/VoiceCallCardActions.tsx
@@ -3964,8 +3964,8 @@ msgid "We are working hard on optimising our web app for mobile."
 msgstr "Estamos trabalhando duro para otimizar nosso aplicativo web para dispositivos móveis."
 
 #: components/auth/src/flows/FlowLogin.tsx
-#~ msgid "We couldn't finish logging you in. Try again, and if it keeps happening, check Stoat's status."
-#~ msgstr "Nós não conseguimos concluir seu log-in. Tente novamente, e se isso persistir, verifique o status do Stoat."
+#~ msgid "We couldn't finish logging you in. Try again, and if it keeps happening, check Klyde's status."
+#~ msgstr "Nós não conseguimos concluir seu log-in. Tente novamente, e se isso persistir, verifique o status do Klyde."
 
 #: components/auth/src/flows/FlowCreate.tsx
 msgid "We only use it to verify your account and help you get back in if you're ever locked out. We'll never sell it or send you spam."
@@ -4206,8 +4206,8 @@ msgid "You've been logged out"
 msgstr "Você foi desconectado"
 
 #: components/modal/modals/SignedOut.tsx
-msgid "You've been signed out of Stoat!"
-msgstr "Você foi desconectado do Stoat!"
+msgid "You've been signed out of Klyde!"
+msgstr "Você foi desconectado do Klyde!"
 
 #: components/i18n/errors.tsx
 msgid "You've reached your personal bot limit."

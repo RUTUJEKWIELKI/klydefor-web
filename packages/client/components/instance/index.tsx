@@ -11,12 +11,12 @@ import {
 import { Dynamic } from "solid-js/web";
 
 import { CONFIGURATION } from "@revolt/common";
-import { AppConfig, normalizeHost, STOAT_HOST } from "@revolt/common/lib/env";
+import { AppConfig, normalizeHost, KLYDE_HOST } from "@revolt/common/lib/env";
 import { LoadingScreen, useSnackbar } from "@revolt/ui";
 
 import Instance, { _newClient } from "./Instance";
 
-export const StoatOrigin = new URL(`https://${STOAT_HOST}`).origin;
+export const KlydeOrigin = new URL(`https://${KLYDE_HOST}`).origin;
 export const DefaultURL = new URL(`https://${CONFIGURATION.DEFAULT_HOST}`);
 export const DefaultHost = DefaultURL.host;
 const DefRoute = `/i/${DefaultHost}/`;
@@ -32,13 +32,13 @@ export function InstanceContext(props: { children?: JSXElement }) {
 
   const [inst, setInst] = createSignal<Instance>();
 
-  //Check Stoat instance
+  //Check Klyde instance
   const host = normalizeHost(params.host);
 
   function onError(e: unknown) {
     if ((e as Error).message === "Failed to fetch") {
       const hStr = `'${host || DefaultHost}'`;
-      e = t`Couldn't fetch Stoat configuration from ${hStr}.`;
+      e = t`Couldn't fetch Klyde configuration from ${hStr}.`;
     }
     snackbar.showError(e);
     if (appLoadedOnce) nav(-1);
@@ -52,7 +52,7 @@ export function InstanceContext(props: { children?: JSXElement }) {
 
     try {
       const appCfg: AppConfig = host
-        ? await (await fetch(`https://${host}/.well-known/stoat`)).json()
+        ? await (await fetch(`https://${host}/.well-known/klyde`)).json()
         : { api: CONFIGURATION.DEFAULT_API_URL };
 
       const cli = _newClient(appCfg.api);
@@ -75,7 +75,7 @@ export function InstanceContext(props: { children?: JSXElement }) {
     <Show
       when={instInit()}
       fallback={
-        <LoadingScreen isStoat={(host || DefaultHost) === STOAT_HOST} />
+        <LoadingScreen isKlyde={(host || DefaultHost) === KLYDE_HOST} />
       }
     >
       <Dynamic component={instanceContext.Provider} value={instInit()}>

@@ -99,11 +99,11 @@ export function ChannelContextMenu(props: { channel: Channel }) {
   }
 
   /**
-   * Open channel in Stoat Admin Panel
+   * Open channel in Klyde Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/channel/${props.channel.id}`,
+      `https://admin.klydeinternal.com/panel/inspect/channel/${props.channel.id}`,
       "_blank",
     );
   }

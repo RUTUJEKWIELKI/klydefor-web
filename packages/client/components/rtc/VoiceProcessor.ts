@@ -9,7 +9,7 @@ export class VoiceProcessor implements TrackProcessor<
   Track.Kind.Audio,
   AudioProcessorOptions
 > {
-  readonly name = "stoat-voice-processor";
+  readonly name = "klyde-voice-processor";
   processedTrack?: MediaStreamTrack;
 
   private audioContext?: AudioContext;

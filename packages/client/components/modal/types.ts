@@ -16,7 +16,7 @@ import {
   ServerMember,
   ServerRole,
   Session,
-  File as StoatFile,
+  File as KlydeFile,
   User,
   VideoEmbed,
 } from "stoat.js";
@@ -169,7 +169,7 @@ export type Modals =
       type: "image_viewer";
       embed?: ImageEmbed;
       gif?: VideoEmbed;
-      file?: StoatFile;
+      file?: KlydeFile;
       originalUrl?: string;
     }
   | {

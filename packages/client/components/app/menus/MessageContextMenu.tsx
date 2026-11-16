@@ -117,11 +117,11 @@ export function MessageContextMenu(props: {
   }
 
   /**
-   * Open message in Stoat Admin Panel
+   * Open message in Klyde Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/message/${props.message!.id}`,
+      `https://admin.klydeinternal.com/panel/inspect/message/${props.message!.id}`,
       "_blank",
     );
   }
