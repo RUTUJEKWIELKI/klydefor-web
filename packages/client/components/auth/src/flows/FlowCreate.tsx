@@ -47,7 +47,7 @@ function EmailPrivacyHint() {
           </Trans>
         </p>
         <a
-          href="https://stoat.chat/privacy"
+          href="https://klyde.chat/privacy"
           target="_blank"
           rel="noopener noreferrer"
           tabIndex={-1} // redundant for kb nav -> another link in footer
@@ -68,7 +68,7 @@ export default function FlowCreate() {
   const { code } = useParams();
   const modals = useModals();
   const { login } = useClientLifecycle();
-  const { config, isStoat } = useInstance();
+  const { config, isKlyde } = useInstance();
 
   /**
    * Create an account
@@ -101,13 +101,13 @@ export default function FlowCreate() {
       <FlowTitle
         subtitle={<Trans>Set up your account and make yourself at home.</Trans>}
       >
-        <Trans>Join Stoat</Trans>
+        <Trans>Join Klyde</Trans>
       </FlowTitle>
       <Form onSubmit={create} captcha={config.features.captcha.key}>
         <Fields
           fields={[
-            // Stoat's privacy policy doesn't cover third party instances
-            isStoat ? { field: "email", hint: <EmailPrivacyHint /> } : "email",
+            // Klyde's privacy policy doesn't cover third party instances
+            isKlyde ? { field: "email", hint: <EmailPrivacyHint /> } : "email",
             "new-password",
           ]}
         />
@@ -136,7 +136,7 @@ export default function FlowCreate() {
             cursor: "pointer",
           }}
           onClick={() => {
-            setFlowCheckEmail("insert@stoat.chat");
+            setFlowCheckEmail("insert@klyde.chat");
             navigate("/login/check", { replace: true });
           }}
         >

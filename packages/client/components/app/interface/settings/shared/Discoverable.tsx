@@ -19,7 +19,7 @@ export function Discoverable(props: {
   discoverable: Bot | Server;
   fullPage?: boolean;
 }) {
-  const { isStoat } = useInstance();
+  const { isKlyde } = useInstance();
   const err = useError();
 
   const [discoverRequest, discoverRequestActions] = createResource(() =>
@@ -36,7 +36,7 @@ export function Discoverable(props: {
   };
 
   return (
-    <Show when={isStoat}>
+    <Show when={isKlyde}>
       <Show when={!props.fullPage}>
         <Text class="title" size="medium">
           <Trans>Discover</Trans>

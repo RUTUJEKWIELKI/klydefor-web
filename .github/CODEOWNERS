@@ -1,5 +1,5 @@
 # For-web maintainers
-* @stoatchat/for-web-maintainers
+* @klydechat/for-web-maintainers
 
 # UI/UX related code
-/packages/client @stoatchat/for-web-maintainers @stoatchat/ui-ux
+/packages/client @klydechat/for-web-maintainers @klydechat/ui-ux

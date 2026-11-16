@@ -1,7 +1,7 @@
 {
-  "name": "stoat-for-web",
+  "name": "klyde-for-web",
   "version": "0.17.0",
-  "description": "Stoat for Web: frontend software for Stoat",
+  "description": "Klyde for Web: frontend software for Klyde",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "eslint": "^9.26.0",

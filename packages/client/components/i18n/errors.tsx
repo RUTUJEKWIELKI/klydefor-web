@@ -198,7 +198,7 @@ export function useError() {
           return err.type + " " + err.location;
 
         default:
-          return t`Uncaught Stoat error: ${err.type}`;
+          return t`Uncaught Klyde error: ${err.type}`;
       }
     }
 
@@ -251,7 +251,7 @@ export function TranslatedError(props: TranslatedErrorProps) {
             <Trans>
               This sign up is marked as spam. Please see{" "}
               <a
-                href="https://support.stoat.chat/kb/safety/blocked-for-spam"
+                href="https://support.klyde.chat/kb/safety/blocked-for-spam"
                 target="_blank"
                 rel="noreferrer"
               >

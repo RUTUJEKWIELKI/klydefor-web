@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2025-09-29 18:29-0500\n"
 "PO-Revision-Date: 2026-09-27 17:49+0000\n"
 "Last-Translator: Daze Dazey <lingangu123waza@gmail.com>\n"
-"Language-Team: Arabic <https://translate.stoat.chat/projects/revolt/revolt-for-web/ar/>\n"
+"Language-Team: Arabic <https://translate.klyde.chat/projects/revolt/revolt-for-web/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -850,8 +850,8 @@ msgstr "تحقق من بريدك الإلكتروني"
 #~ msgstr "راجع بريدك الإلكتروني!"
 
 #: components/auth/src/flows/FlowConfirmReset.tsx
-msgid "Choose a new password for your Stoat account."
-msgstr "اختر كلمة مرور جديدة لحساب Stoat الخاص بك."
+msgid "Choose a new password for your Klyde account."
+msgstr "اختر كلمة مرور جديدة لحساب Klyde الخاص بك."
 
 #: components/auth/src/flows/FlowLogin.tsx
 msgid "Choose a username"
@@ -1092,8 +1092,8 @@ msgid "Could not find what you requested."
 msgstr "لم يتم العثور على طلبك."
 
 #: components/instance/index.tsx
-msgid "Couldn't fetch Stoat configuration from {hStr}."
-msgstr "تعذر جلب إعدادات Stoat من {hStr}."
+msgid "Couldn't fetch Klyde configuration from {hStr}."
+msgstr "تعذر جلب إعدادات Klyde من {hStr}."
 
 #: components/ui/components/design/ImageCropper.tsx
 msgid "Couldn't load this image."
@@ -1445,7 +1445,7 @@ msgid "Discover"
 msgstr "اكتشف"
 
 #: src/interface/Home.tsx
-msgid "Discover Stoat"
+msgid "Discover Klyde"
 msgstr "قم بإكتشاف ستوت"
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
@@ -1492,11 +1492,11 @@ msgid "Donate"
 msgstr "تبرع"
 
 #: src/interface/Home.tsx
-msgid "Donate to Stoat"
+msgid "Donate to Klyde"
 msgstr "قم بالتبرع لستوت"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Donated to Stoat"
+msgid "Donated to Klyde"
 msgstr "قمت بالتبرع لستوت"
 
 #: components/modal/modals/MFARecovery.tsx
@@ -1700,8 +1700,8 @@ msgid "Extreme violence, gore or animal cruelty"
 msgstr "عنف مفرط، مشاهد دموية أو قسوة على الحيوانات"
 
 #: components/client/NotificationsController.ts
-msgid "Failed to enable notifications. Stoat does not have notification permission."
-msgstr "فشل في تمكين الإشعارات. لا يوجد لدى Stoat إذن الإخطار."
+msgid "Failed to enable notifications. Klyde does not have notification permission."
+msgstr "فشل في تمكين الإشعارات. لا يوجد لدى Klyde إذن الإخطار."
 
 #: components/client/NotificationsController.ts
 msgid "Failed to enable push notifications. Please try again later."
@@ -1819,24 +1819,24 @@ msgid "Get it on Google Play"
 msgstr "احصل عليه على Google Play"
 
 #: components/auth/src/AppUpsell.tsx
-msgid "Get Stoat for Android and keep up with your friends wherever you are."
-msgstr "احصل على Stoat لنظام أندرويد وابقَ على تواصل مع أصدقائك أينما كنت."
+msgid "Get Klyde for Android and keep up with your friends wherever you are."
+msgstr "احصل على Klyde لنظام أندرويد وابقَ على تواصل مع أصدقائك أينما كنت."
 
 #: components/auth/src/AppUpsell.tsx
 msgid "Get the desktop app for Windows, macOS and Linux and keep your conversations one click away."
 msgstr "احصل على تطبيق سطح المكتب لأنظمة Windows وmacOS وLinux، واجعل محادثاتك على بُعد نقرة واحدة."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
-msgid "Gifbox is our own GIF service, so you can keep sharing GIFs right here on Stoat."
-msgstr "Gifbox هي خدمة GIF الخاصة بنا، لذا يمكنك الاستمرار في مشاركة صور GIF هنا على Stoat."
+msgid "Gifbox is our own GIF service, so you can keep sharing GIFs right here on Klyde."
+msgstr "Gifbox هي خدمة GIF الخاصة بنا، لذا يمكنك الاستمرار في مشاركة صور GIF هنا على Klyde."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
 msgid "GIFs are now powered by Gifbox"
 msgstr "أصبحت صور GIF الآن مدعومة بواسطة Gifbox"
 
 #: src/interface/Home.tsx
-msgid "Give feedback on Stoat"
-msgstr "عبر عن رأيك في Stoat"
+msgid "Give feedback on Klyde"
+msgstr "عبر عن رأيك في Klyde"
 
 #: components/modal/modals/ReportContent.tsx
 msgid "Give us some detail"
@@ -1860,8 +1860,8 @@ msgstr "إذهب إلى إعدادات الحساب لتعديل إسم المس
 
 #: components/app/interface/settings/user/Feedback.tsx
 #: src/interface/Home.tsx
-msgid "Go to the Stoat Lounge"
-msgstr "إذهب إلى Stoat Lounge"
+msgid "Go to the Klyde Lounge"
+msgstr "إذهب إلى Klyde Lounge"
 
 #~ msgid "Go to the testers server"
 #~ msgstr "الذهاب لسيرفر المختبرين"
@@ -1916,8 +1916,8 @@ msgid "Help contribute to an existing or new language"
 msgstr "ساهم في ترجمة لغة جديدة أو لغة موجودة"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Helped translate Stoat"
-msgstr "قام بالمساعدة في ترجمة Stoat"
+msgid "Helped translate Klyde"
+msgstr "قام بالمساعدة في ترجمة Klyde"
 
 #. placeholder {0}: link()
 #: components/modal/modals/CreateInvite.tsx
@@ -1973,8 +1973,8 @@ msgid "Impersonation"
 msgstr "إنتحال شخصية"
 
 #: src/AndroidNag.tsx
-msgid "In the meantime, install Stoat from Google Play for a faster, smoother experience designed for Android."
-msgstr "في هذه الأثناء، قم بتثبيت Stoat من Google Play للحصول على تجربة أسرع وأكثر سلاسة مصممة لنظام Android."
+msgid "In the meantime, install Klyde from Google Play for a faster, smoother experience designed for Android."
+msgstr "في هذه الأثناء، قم بتثبيت Klyde من Google Play للحصول على تجربة أسرع وأكثر سلاسة مصممة لنظام Android."
 
 #: src/interface/Friends.tsx
 msgid "Incoming"
@@ -1985,8 +1985,8 @@ msgid "Input Volume"
 msgstr "مستوى صوت الإدخال"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Instead of closing, Stoat will hide in your tray."
-msgstr "عوضا عن الإغلاق، Stoat ستكون في أسفل خانة البرامج."
+msgid "Instead of closing, Klyde will hide in your tray."
+msgstr "عوضا عن الإغلاق، Klyde ستكون في أسفل خانة البرامج."
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
 msgid "Interface Font"
@@ -2050,13 +2050,13 @@ msgstr "انضم الى سيرفر"
 #~ msgstr ""
 
 #: components/auth/src/flows/FlowCreate.tsx
-msgid "Join Stoat"
-msgstr "انضم إلى Stoat"
+msgid "Join Klyde"
+msgstr "انضم إلى Klyde"
 
 #: components/app/interface/settings/user/Feedback.tsx
 #: src/interface/Home.tsx
-msgid "Join the Stoat Lounge"
-msgstr "انضم الى Stoat Lounge"
+msgid "Join the Klyde Lounge"
+msgstr "انضم الى Klyde Lounge"
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardPreview.tsx
 #: src/interface/channels/ChannelHeader.tsx
@@ -2114,16 +2114,16 @@ msgid "Latest"
 msgstr "الأحدث"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Launch Stoat when you log into your computer."
-msgstr "تشغيل Stoat عند تشغيل الجهاز الخاص بك."
+msgid "Launch Klyde when you log into your computer."
+msgstr "تشغيل Klyde عند تشغيل الجهاز الخاص بك."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
 msgid "Learn more"
 msgstr "تعرف على المزيد"
 
 #: components/app/interface/settings/user/bots/MyBots.tsx
-msgid "Learn more about how to create bots on Stoat."
-msgstr "اعرف المزيد عن كيفية إنشاء البوتات على Stoat."
+msgid "Learn more about how to create bots on Klyde."
+msgstr "اعرف المزيد عن كيفية إنشاء البوتات على Klyde."
 
 #: components/modal/modals/DeleteChannel.tsx
 #: components/modal/modals/LeaveServer.tsx
@@ -2146,8 +2146,8 @@ msgid "Leave server"
 msgstr "مغادرة السيرفر"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Let Stoat use its own custom titlebar."
-msgstr "اسمح لـ Stoat باستخدام شريط العنوان الخاص به."
+msgid "Let Klyde use its own custom titlebar."
+msgstr "اسمح لـ Klyde باستخدام شريط العنوان الخاص به."
 
 #: src/interface/Home.tsx
 msgid "Let us know how we can improve our app by giving us feedback."
@@ -2479,12 +2479,12 @@ msgid "New Password"
 msgstr "كلمة مرور جديدة"
 
 #: components/app/interface/channels/text/Message.tsx
-msgid "New to Stoat"
-msgstr "جديد على Stoat"
+msgid "New to Klyde"
+msgstr "جديد على Klyde"
 
 #: components/auth/src/AuthPage.tsx
-msgid "New to Stoat?"
-msgstr "هل أنت جديد في Stoat؟"
+msgid "New to Klyde?"
+msgstr "هل أنت جديد في Klyde؟"
 
 #: components/app/interface/channels/text/Message.tsx
 msgid "New to the server"
@@ -2937,8 +2937,8 @@ msgid "Rename Session"
 msgstr "اعادة تسمية الجلسة"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Rep Stoat using Discord rich presence."
-msgstr "عرض Stoat في الحالة الشخصية في تطبيق Discord."
+msgid "Rep Klyde using Discord rich presence."
+msgstr "عرض Klyde في الحالة الشخصية في تطبيق Discord."
 
 #: components/app/menus/MessageContextMenu.tsx
 msgid "Reply"
@@ -3302,8 +3302,8 @@ msgstr "إظهار الآخرين"
 msgid "Show send message button"
 msgstr "عرض زر إرسال الرسالة"
 
-#~ msgid "Sign into Stoat"
-#~ msgstr "تسجيل دخول الى Stoat"
+#~ msgid "Sign into Klyde"
+#~ msgstr "تسجيل دخول الى Klyde"
 
 #~ msgid "Sign Up"
 #~ msgstr "انشاء حساب"
@@ -3396,39 +3396,39 @@ msgstr "بدء التطبيق عند التشغيل"
 msgid "Status"
 msgstr "الحالة"
 
-#~ msgid "Stoat Desktop"
+#~ msgid "Klyde Desktop"
 #~ msgstr ""
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Stoat Developer"
-msgstr "مطور Stoat"
+msgid "Klyde Developer"
+msgstr "مطور Klyde"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Stoat for Desktop"
-msgstr "نسخة Stoat للحاسوب"
+msgid "Klyde for Desktop"
+msgstr "نسخة Klyde للحاسوب"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Stoat Founder"
-msgstr "مؤسس Stoat"
+msgid "Klyde Founder"
+msgstr "مؤسس Klyde"
 
-#~ msgid "Stoat is one of the best ways to stay connected with your friends and community, anywhere, anytime."
-#~ msgstr "Stoat هو واحد من الطرق المفضلة للبقاء على تواصل مع أصدقائك و مجتمعك، أين ما كنت، حين ما شئت."
+#~ msgid "Klyde is one of the best ways to stay connected with your friends and community, anywhere, anytime."
+#~ msgstr "Klyde هو واحد من الطرق المفضلة للبقاء على تواصل مع أصدقائك و مجتمعك، أين ما كنت، حين ما شئت."
 
 #: components/app/interface/settings/server/roles/ServerRoleEditor.tsx
-msgid "Stoat rocks!"
+msgid "Klyde rocks!"
 msgstr "حيوان القاقم رائع!"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Stoat will start in the system tray."
-msgstr "سيبدأ Stoat في علبة النظام."
+msgid "Klyde will start in the system tray."
+msgstr "سيبدأ Klyde في علبة النظام."
 
 #: src/AndroidNag.tsx
-msgid "Stoat works best as an app"
-msgstr "يعمل Stoat بشكل أفضل كتطبيق"
+msgid "Klyde works best as an app"
+msgstr "يعمل Klyde بشكل أفضل كتطبيق"
 
 #: components/auth/src/AppUpsell.tsx
-msgid "Stoat, right on <0>your desktop.</0>"
-msgstr "Stoat، مباشرةً على <0>سطح مكتبك.</0>"
+msgid "Klyde, right on <0>your desktop.</0>"
+msgstr "Klyde، مباشرةً على <0>سطح مكتبك.</0>"
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardActions.tsx
 msgid "Stop camera"
@@ -3463,8 +3463,8 @@ msgid "Subscriptions"
 msgstr "الإشتراكات"
 
 #: components/app/interface/settings/user/Feedback.tsx
-msgid "Suggest new Stoat features on GitHub discussions."
-msgstr "اقترح ميزات جديدة لـ Stoat في منتديات GitHub."
+msgid "Suggest new Klyde features on GitHub discussions."
+msgstr "اقترح ميزات جديدة لـ Klyde في منتديات GitHub."
 
 #: src/interface/Home.tsx
 msgid "Support the project by donating - thank you!"
@@ -3747,7 +3747,7 @@ msgstr "فك الحظر"
 
 #. placeholder {0}: err.type
 #: components/i18n/errors.tsx
-msgid "Uncaught Stoat error: {0}"
+msgid "Uncaught Klyde error: {0}"
 msgstr "خطأ Staot غير مراقب: {0}"
 
 #: components/app/interface/settings/user/notifications/Sounds.tsx
@@ -3998,8 +3998,8 @@ msgid "We are working hard on optimising our web app for mobile."
 msgstr "نحن نعمل بجد على تحسين تطبيق الويب الخاص بنا للهواتف المحمولة."
 
 #: components/auth/src/flows/FlowLogin.tsx
-#~ msgid "We couldn't finish logging you in. Try again, and if it keeps happening, check Stoat's status."
-#~ msgstr "تعذّر إكمال عملية تسجيل الدخول. حاول مرة أخرى، وإذا استمرت المشكلة، فتحقق من حالة Stoat."
+#~ msgid "We couldn't finish logging you in. Try again, and if it keeps happening, check Klyde's status."
+#~ msgstr "تعذّر إكمال عملية تسجيل الدخول. حاول مرة أخرى، وإذا استمرت المشكلة، فتحقق من حالة Klyde."
 
 #: components/auth/src/flows/FlowCreate.tsx
 msgid "We only use it to verify your account and help you get back in if you're ever locked out. We'll never sell it or send you spam."
@@ -4240,8 +4240,8 @@ msgid "You've been logged out"
 msgstr "تم تسجيل خروجك"
 
 #: components/modal/modals/SignedOut.tsx
-msgid "You've been signed out of Stoat!"
-msgstr "لقد قمت بمغادرة حساب Stoat الخاص بك!"
+msgid "You've been signed out of Klyde!"
+msgstr "لقد قمت بمغادرة حساب Klyde الخاص بك!"
 
 #: components/i18n/errors.tsx
 msgid "You've reached your personal bot limit."

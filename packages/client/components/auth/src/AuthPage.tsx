@@ -541,7 +541,7 @@ export function AuthPage(props: { children: JSX.Element }) {
                 fallback={
                   <>
                     <span>
-                      <Trans>New to Stoat?</Trans>
+                      <Trans>New to Klyde?</Trans>
                     </span>
                     <A href="/login/create">
                       <Trans>Create account</Trans>
@@ -633,26 +633,26 @@ export function AuthPage(props: { children: JSX.Element }) {
 
           <Footer>
             <nav aria-label="Legal">
-              <a href="https://stoat.chat/terms" target="_blank">
+              <a href="https://klyde.chat/terms" target="_blank">
                 <Trans>Terms</Trans>
               </a>
-              <a href="https://stoat.chat/privacy" target="_blank">
+              <a href="https://klyde.chat/privacy" target="_blank">
                 <Trans>Privacy</Trans>
               </a>
-              <a href="https://support.stoat.chat/" target="_blank">
+              <a href="https://support.klyde.chat/" target="_blank">
                 <Trans>Help</Trans>
               </a>
             </nav>
             <Socials aria-label="Social links">
               <a
-                href="https://github.com/stoatchat"
+                href="https://github.com/klydechat"
                 target="_blank"
                 aria-label="GitHub"
               >
                 <GitHub width={20} height={20} />
               </a>
               <a
-                href="https://bsky.app/profile/stoat.chat"
+                href="https://bsky.app/profile/klyde.chat"
                 target="_blank"
                 aria-label="Bluesky"
               >

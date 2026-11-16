@@ -443,7 +443,7 @@ export const ServerList = (props: Props) => {
             <Avatar size={42} fallback={<Symbol>add</Symbol>} />
           </a>
         </Tooltip>
-        <Show when={instance.isStoat}>
+        <Show when={instance.isKlyde}>
           <Tooltip placement="right" content={"Find new servers to join"}>
             <a
               href={state.layout.getLastActiveDiscoverPath()}

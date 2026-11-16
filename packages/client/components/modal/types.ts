@@ -6,6 +6,7 @@ import {
   Client,
   Emoji,
   ImageEmbed,
+  File as KlydeFile,
   Message,
   MFA,
   MFATicket,
@@ -16,7 +17,6 @@ import {
   ServerMember,
   ServerRole,
   Session,
-  File as StoatFile,
   User,
   VideoEmbed,
 } from "stoat.js";
@@ -169,7 +169,7 @@ export type Modals =
       type: "image_viewer";
       embed?: ImageEmbed;
       gif?: VideoEmbed;
-      file?: StoatFile;
+      file?: KlydeFile;
       originalUrl?: string;
     }
   | {

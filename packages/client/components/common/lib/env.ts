@@ -1,7 +1,7 @@
-export const STOAT_HOST = "stoat.chat";
-const STOAT_API = "https://api.stoat.chat";
+export const KLYDE_HOST = "klyde.chat";
+const KLYDE_API = "https://api.klyde.chat";
 
-/** App `stoat.json` endpoint format */
+/** App `klyde.json` endpoint format */
 export interface AppConfig {
   api: string;
 }
@@ -15,7 +15,7 @@ const getEnv = (name: string, devOnly?: boolean) =>
     ? (import.meta.env[name] as string)
     : undefined;
 
-/** If host is Stoat, normalize to STOAT_HOST, else return host */
+/** If host is Klyde, normalize to KLYDE_HOST, else return host */
 export const normalizeHost = (host: string) =>
   [
     // historically...
@@ -23,29 +23,29 @@ export const normalizeHost = (host: string) =>
     "beta.revolt.chat",
     "revolt.chat",
     // ... and now:
-    "api.stoat.chat",
-    "beta.stoat.chat",
+    "api.klyde.chat",
+    "beta.klyde.chat",
   ].includes(host)
-    ? STOAT_HOST
+    ? KLYDE_HOST
     : host;
 
-const isStoatOfficialAPI = (api: string) =>
+const isKlydeOfficialAPI = (api: string) =>
   [
     "https://api.revolt.chat",
-    "https://api.stoat.chat",
-    "https://stoat.chat/api",
-    "https://beta.stoat.chat/api",
-    "canary-api.stoat.chat",
+    "https://api.klyde.chat",
+    "https://klyde.chat/api",
+    "https://beta.klyde.chat/api",
+    "canary-api.klyde.chat",
   ].includes(api);
 
 const DEFAULT_HOST = normalizeHost(
-  getEnv("VITE_DEV_HOST", true) || getEnv("VITE_HOST") || STOAT_HOST,
+  getEnv("VITE_DEV_HOST", true) || getEnv("VITE_HOST") || KLYDE_HOST,
 );
 
 const DEFAULT_API_URL =
-  getEnv("VITE_DEV_API_URL", true) || getEnv("VITE_API_URL") || STOAT_API;
+  getEnv("VITE_DEV_API_URL", true) || getEnv("VITE_API_URL") || KLYDE_API;
 
-if (!isStoatOfficialAPI(DEFAULT_API_URL) && DEFAULT_HOST === STOAT_HOST)
+if (!isKlydeOfficialAPI(DEFAULT_API_URL) && DEFAULT_HOST === KLYDE_HOST)
   console.error("VITE_HOST required when VITE_API_URL is set!");
 
 export default {

@@ -95,10 +95,10 @@ export function AppearanceMenu() {
         {/* <Row gap="xs justify="stretch">
           <Button
             group="connected-start"
-            groupActive={state.theme.preset === "stoat"}
-            onPress={() => state.theme.setPreset("stoat")}
+            groupActive={state.theme.preset === "klyde"}
+            onPress={() => state.theme.setPreset("klyde")}
           >
-            <Trans>Stoat</Trans>
+            <Trans>Klyde</Trans>
           </Button>
           <Button
             group="connected-end"
