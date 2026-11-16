@@ -11,7 +11,7 @@ import {
 import { Dynamic } from "solid-js/web";
 
 import { CONFIGURATION } from "@revolt/common";
-import { AppConfig, normalizeHost, KLYDE_HOST } from "@revolt/common/lib/env";
+import { AppConfig, KLYDE_HOST, normalizeHost } from "@revolt/common/lib/env";
 import { LoadingScreen, useSnackbar } from "@revolt/ui";
 
 import Instance, { _newClient } from "./Instance";

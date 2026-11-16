@@ -5,9 +5,9 @@ import { State } from "@revolt/client/Controller";
 import { useState } from "@revolt/state";
 
 import {
+  createKlydeWebVariables,
   createMaterialColourVariables,
   createMduiColourTriplets,
-  createKlydeWebVariables,
 } from ".";
 import { SlideState } from "../components/navigation/SlideDrawer";
 import { Masks } from "./Masks";

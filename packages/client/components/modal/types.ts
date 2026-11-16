@@ -6,6 +6,7 @@ import {
   Client,
   Emoji,
   ImageEmbed,
+  File as KlydeFile,
   Message,
   MFA,
   MFATicket,
@@ -16,7 +17,6 @@ import {
   ServerMember,
   ServerRole,
   Session,
-  File as KlydeFile,
   User,
   VideoEmbed,
 } from "stoat.js";
