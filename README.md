@@ -2,12 +2,12 @@
 <h1>
   Klyde Frontend
   
-  [![Stars](https://img.shields.io/github/stars/klydechat/for-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/stargazers)
-  [![Forks](https://img.shields.io/github/forks/klydechat/for-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/network/members)
-  [![Pull Requests](https://img.shields.io/github/issues-pr/klydechat/for-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/pulls)
-  [![Issues](https://img.shields.io/github/issues/klydechat/for-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/issues)
-  [![Contributors](https://img.shields.io/github/contributors/klydechat/for-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/graphs/contributors)
-  [![License](https://img.shields.io/github/license/klydechat/for-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/blob/main/LICENSE)
+  [![Stars](https://img.shields.io/github/stars/RUTUJEKWIELKI/klydefor-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/stargazers)
+  [![Forks](https://img.shields.io/github/forks/RUTUJEKWIELKI/klydefor-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/network/members)
+  [![Pull Requests](https://img.shields.io/github/issues-pr/RUTUJEKWIELKI/klydefor-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/pulls)
+  [![Issues](https://img.shields.io/github/issues/RUTUJEKWIELKI/klydefor-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/issues)
+  [![Contributors](https://img.shields.io/github/contributors/RUTUJEKWIELKI/klydefor-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/graphs/contributors)
+  [![License](https://img.shields.io/github/license/RUTUJEKWIELKI/klydefor-web?style=flat-square&logoColor=white)](https://github.com/RUTUJEKWIELKI/klydefor-web/blob/main/LICENSE)
 </h1>
 The official web client powering https://klyde.chat/app, built with <a href="https://www.solidjs.com/">Solid.js</a> 💖. <br/>
 Track the project roadmap on <a href="https://op.klydeinternal.com/projects/revolt-for-web/roadmap">OpenProject</a>.
@@ -16,7 +16,7 @@ Track the project roadmap on <a href="https://op.klydeinternal.com/projects/revo
 
 ## Development Guide
 
-Before contributing, make yourself familiar with [our contribution guidelines](https://developers.klyde.chat/developing/contrib/), the [code style guidelines](./GUIDELINES.md), and the [technical documentation for this project](https://klydechat.github.io/for-web/).
+Before contributing, make yourself familiar with [our contribution guidelines](https://developers.klyde.chat/developing/contrib/), the [code style guidelines](./GUIDELINES.md), and the [technical documentation for this project](https://rutujekwielki.github.io/klydefor-web/).
 
 Before getting started, you'll want to install:
 
@@ -52,7 +52,7 @@ mise dev
 mise check
 ```
 
-Finally, navigate to http://local.revolt.chat:5173.
+Finally, navigate to http://local.klyde.chat:5173.
 
 ### Using the official backend
 

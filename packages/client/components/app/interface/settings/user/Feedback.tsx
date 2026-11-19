@@ -45,7 +45,7 @@ export function Feedback() {
           </CategoryButton>
         </Link> */}
         <Link
-          href="https://github.com/orgs/klydechat/discussions/categories/feature-suggestions"
+          href="https://github.com/RUTUJEKWIELKI/klydefor-web/discussions/categories/feature-suggestions"
           target="_blank"
         >
           <CategoryButton
@@ -60,7 +60,7 @@ export function Feedback() {
           </CategoryButton>
         </Link>
         <Link
-          href="https://github.com/orgs/klydechat/discussions/categories/feedback"
+          href="https://github.com/RUTUJEKWIELKI/klydefor-web/discussions/categories/feedback"
           target="_blank"
         >
           <CategoryButton
@@ -73,7 +73,7 @@ export function Feedback() {
           </CategoryButton>
         </Link>
         <Link
-          href="https://github.com/klydechat/for-web/issues?q=is%3Aissue%20state%3Aopen%20type%3ABug"
+          href="https://github.com/RUTUJEKWIELKI/klydefor-web/issues?q=is%3Aissue%20state%3Aopen%20type%3ABug"
           target="_blank"
         >
           <CategoryButton

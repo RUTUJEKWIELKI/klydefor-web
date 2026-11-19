@@ -328,7 +328,7 @@ const Config: SettingsConfiguration<{ server: Server }> = {
               title: <Trans>What's New</Trans>,
             },
             {
-              href: "https://github.com/klydechat",
+              href: "https://github.com/RUTUJEKWIELKI/klydefor-web",
               icon: <MdMemory {...iconSize(20)} />,
               title: <Trans>Source Code</Trans>,
             },
