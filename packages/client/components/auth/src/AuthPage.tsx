@@ -645,7 +645,7 @@ export function AuthPage(props: { children: JSX.Element }) {
             </nav>
             <Socials aria-label="Social links">
               <a
-                href="https://github.com/klydechat"
+                href="https://github.com/RUTUJEKWIELKI/klydefor-web"
                 target="_blank"
                 aria-label="GitHub"
               >
